@@ -1,5 +1,5 @@
 # GIP_Cardiac_MRI
-The implementation of "Graph Image Prior for Unsupervised Dynamic MRI Reconstruction"
+A simple implementation of the GIP method: "Graph Image Prior for Unsupervised Dynamic MRI Reconstruction".
 
 The Network Architecture:
 ![Image text](illustration/Network_Architecture.png)
