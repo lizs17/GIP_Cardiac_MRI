@@ -9,9 +9,9 @@ The Optimization Algorithm:
 
 # Contents
 
-# Reconstruction Demo
+# Reconstruction Demo (for Poisson Sampling)
 
-# Reconstruction Demo (for Non-Cartesian Trajectories)
+# Reconstruction Demo (for 2D Sampling Trajectories)
 * This part will be made available upon publication of the article.
 
 # Requirements
