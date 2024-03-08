@@ -11,7 +11,10 @@ The Optimization Algorithm:
 
 # Reconstruction Demo (Poisson Sampling)
 
-# Reconstruction Demo (Non-Cartesian Trajectories)
+# Reconstruction Demo (For Cartesian and Non-Cartesian Trajectories)
+* This part will be made available upon publication of the article.
+
+# Network Pretrain Details
 * This part will be made available upon publication of the article.
 
 # Demo
