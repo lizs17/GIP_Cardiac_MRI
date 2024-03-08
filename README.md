@@ -5,3 +5,4 @@ The Network Architecture:
 ![Image text](illustration/Network_Architecture.png)
 
 The Optimization Algorithm:
+![Image text](illustration/Optimization_Algorithm.png)
