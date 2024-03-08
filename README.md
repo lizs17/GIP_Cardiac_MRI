@@ -6,3 +6,5 @@ The Network Architecture:
 
 The Optimization Algorithm:
 ![Image text](illustration/Optimization_Algorithm.png)
+
+# Files
