@@ -8,19 +8,4 @@ The Optimization Algorithm:
 ![Image text](illustration/Optimization_Algorithm.png)
 
 # Contents
-
-# Reconstruction Demo (for Poisson Sampling)
-
-# Reconstruction Demo (for 2D Sampling Trajectories)
-* This part will be made available upon publication of the article.
-
-# Requirements
-The library versions are validated to reproduce the results, but they are not mandatory.
-* PyTorch = 1.12.1
-* numpy = 1.24.3
-* torchkbnufft = 1.4.0
-* scipy = 1.10.1
-* scikit-image = 0.19.3
-* matplotlib = 3.7.2
-
-# References
+The code and data will be made available upon publication.
