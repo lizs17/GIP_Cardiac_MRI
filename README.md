@@ -7,4 +7,11 @@ The Network Architecture:
 The Optimization Algorithm:
 ![Image text](illustration/Optimization_Algorithm.png)
 
-# Files
+# Contents
+
+# Reconstruction Demo (Poisson Sampling)
+
+# Reconstruction Demo (Non-Cartesian Trajectories)
+* This part will be made available upon publication of the article.
+
+# Demo
