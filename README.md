@@ -9,6 +9,7 @@ The Optimization Algorithm:
 
 # Environment Configuration
 The following environmental configurations can reproduce the results in the article. Other configurations may also be feasible but have not been attempted.
+
 * python=3.8.19
 * numpy=1.24.3
 * pytorch=1.12.1
@@ -16,6 +17,7 @@ The following environmental configurations can reproduce the results in the arti
 * matplotlib=3.7.5
 * scikit-image=0.21.0
 * torchkbnufft=1.4.0
+  
 The supporting file "environment.txt" is provided for a quick configuration for the necessary packages.
 
 # Contents
