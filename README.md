@@ -25,15 +25,15 @@ The supporting file `environment.txt` is provided for a quick configuration for 
 * "mask/": the undersampling pattern directory, containing the undersampling mask (for Cartesian-sampled k-space patterns) or trajectory and the corresponding density compensation funtion (for non-Cartesian-sampled k-space patterns)
 * utils.py: the helper functions and classes
 * model.py: the Graph-Image_Prior (GIP) generator architecture
-* GIP_xxx____pretrain.py: the code for pretraining the generator G_{\theta}, using xxx trajectory sampling
-* GIP_xxx____ADMM.py: the code of the ADMM algorithm for alternately optimizing the generator G_{\theta} and the dynamic images, using xxx trajectory sampling
+* GIP_xxx____pretrain.py: the code for pretraining the generator, using xxx trajectory sampling
+* GIP_xxx____ADMM.py: the code of the ADMM algorithm for alternately optimizing the generator and the dynamic images, using xxx trajectory sampling
 * GIP_xxx____main.py: a one-click script for running the code to reproduce the results, using xxx trajectory sampling
 
 # Updated Information for Pretraining
 
 Pretraining is critical for producing good reconstruction performance. However, this part has been omitted in the article due to page limit. A brief explanation about the pretraining process is given here.
 
-The GIP generator has two parts: the independent CNNs (G<sup>1</sup>, ..., G<sup>N</sup>) and the GCN network. In this implementation, (G1, ..., GN) are abbreviated as "G", and the GCN is abbreviated as "C".
+The GIP generator has two parts: the independent CNNs (G<sub>1</sub>, ..., G<sub>N</sub>) and the GCN network. In this implementation, (G<sub>1</sub>, ..., G<sub>N</sub>) are abbreviated as "G", and the GCN is abbreviated as "C".
 
 We adopted a 3-stage pretraining strategy for the GIP generator.
 
