@@ -93,6 +93,10 @@ When the code-runing is finished, two additional directories (`GIP_Poisson_R16.0
 
 An example of the reproduction results can be downloaded [here](https://drive.google.com/drive/folders/1auUZusxgkh0ERYF9O0yTh3aR4Wa8rSp1?usp=sharing).
 
+# Reconstruction Example for non-Cartesian Sampling
+
+The code is under preparation ...
+
 # References
 * This work is now an Arxiv preprint at https://arxiv.org/abs/2403.15770.
 * If you find this repo helpful, please cite this work as follows:
