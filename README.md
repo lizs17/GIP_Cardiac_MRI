@@ -68,3 +68,12 @@ When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0
 
 ![Image text](illustration/recon_images.png)
 
+# References
+* This work is now an Arxiv preprint at https://arxiv.org/abs/2403.15770.
+* If you find this repo helpful, please cite this work as follows:
+* @article{li2024graph,
+  title={Graph Image Prior for Unsupervised Dynamic MRI Reconstruction},
+  author={Li, Zhongsen and Chen, Wenxuan and Wang, Shuai and Liu, Chuyu and Li, Rui},
+  journal={arXiv preprint arXiv:2403.15770},
+  year={2024}
+}
