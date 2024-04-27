@@ -41,8 +41,6 @@ We adopted a 3-stage pretraining strategy for the GIP generator.
 * Second-stage: the weights of "G" is kept fixed. The fixed "G" is used jointly with "C" to output the reconstructed images, and then fitting the undersampled k-space data. Because the weights of "G" is fixed, the purpose of this step is to find a good initialization for "C".
 * Third-stage: "G" and "C" are used in combination, and the weights of both parts are learnable. Still, fine-tuning is performed by fitting the undersampled k-space data. A detail of this stage is that the graph structure is learnable at the beginning of this stage, but will be fixed after a given iteration number. This graph-structure is also utilized for the following ADMM algorithm.
 
-The whole pretraining process also only utilizes the undersampled k-space data, which ensures that GIP is indeed an unsupervised algorithm. Besides, the k-space data also needs to be appropriately normalized for different pretraining stages. All the details are included in the source code.
-
 # A Simple Reconstruction Example for Poisson Sampling
 Just run the following command to train a GIP model and perform reconstruction from the very beginning (from randomly-initialized model weight).
 
@@ -78,6 +76,8 @@ When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0
 ![Image text](illustration/smap_and_mask.png)
 
 ![Image text](illustration/recon_images.png)
+
+An example of the reproduction can be downloaded by this link: https://drive.google.com/drive/folders/1auUZusxgkh0ERYF9O0yTh3aR4Wa8rSp1?usp=sharing.
 
 # References
 * This work is now an Arxiv preprint at https://arxiv.org/abs/2403.15770.
