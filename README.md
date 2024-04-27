@@ -33,7 +33,7 @@ The supporting file `environment.txt` is provided for a quick configuration for 
 
 Pretraining is critical for producing good reconstruction performance. However, this part has been omitted in the article due to page limit. A brief explanation about the pretraining process is given here.
 
-The GIP generator has two parts: the independent CNNs (G1, ..., GN) and the GCN network. In this implementation, (G1, ..., GN) are abbreviated as "G", and the GCN is abbreviated as "C".
+The GIP generator has two parts: the independent CNNs (G<sup>1</sup>, ..., G<sup>N</sup>) and the GCN network. In this implementation, (G1, ..., GN) are abbreviated as "G", and the GCN is abbreviated as "C".
 
 We adopted a 3-stage pretraining strategy for the GIP generator.
 
