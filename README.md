@@ -34,11 +34,15 @@ The supporting file "environment.txt" is provided for a quick configuration for 
 
 # A Simple Reconstruction Example for Poisson Sampling
 Just run the following command to train a GIP model and perform reconstruction from the very beginning (from randomly-initialized model weight).
+
 ```bash
 python GIP_Poisson____main.py
 ```
-* The pretraining takes 2~3 hours and the ADMM algorithm takes ~1 hour (on a RTX 4090 GPU).
-* When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0_ACS6x6/" and "output_Poisson/") should be created:
+
+The pretraining takes 2~3 hours and the ADMM algorithm takes ~1 hour (accordig to the reproduction on a RTX 4090 GPU).
+
+When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0_ACS6x6/" and "output_Poisson/") should be created:
+
 ```bash
 ├── GIP_Poisson_R16.0_ACS6x6/
 │   ├── fs_0032_3T_slc1_p3/
@@ -56,5 +60,6 @@ python GIP_Poisson____main.py
 │   ├── masks.png
 │   ├── smaps.png
 ```
-* The "GIP_Poisson_R16.0_ACS6x6/" directory contains the intermediate and final results of the GIP reconstruction procedure. And the "output_Poisson/" directory contains the plotted figures of the reconstructed images.
-* 
+* The "GIP_Poisson_R16.0_ACS6x6/" directory contains the intermediate and final results of the GIP reconstruction procedure.
+* The "output_Poisson/" directory contains the plotted figures of the reconstructed images.
+* IMPORTANT!!! Because the "nn.Upsample" module has unavoidable randomness (even if all the random seeds have been controlled, and the torch backends has been kept as deterministic, see https://discuss.pytorch.org/t/non-deterministic-behavior-of-pytorch-upsample-interpolate/42842/6), the 
