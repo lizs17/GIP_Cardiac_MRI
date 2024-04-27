@@ -1,0 +1,100 @@
+iter: 100  |  time: 43.2  |  loss: 33.2
+------ nRMSE: 0.0440  |  PSNR: 27.46  |  SSIM: 0.7539
+iter: 200  |  time: 88.5  |  loss: 9.5
+------ nRMSE: 0.0284  |  PSNR: 31.20  |  SSIM: 0.8506
+iter: 300  |  time: 130.2  |  loss: 9.7
+------ nRMSE: 0.0283  |  PSNR: 31.30  |  SSIM: 0.8552
+iter: 400  |  time: 171.8  |  loss: 7.7
+------ nRMSE: 0.0257  |  PSNR: 32.09  |  SSIM: 0.8649
+iter: 500  |  time: 213.5  |  loss: 6.7
+------ nRMSE: 0.0265  |  PSNR: 31.80  |  SSIM: 0.8898
+iter: 600  |  time: 255.3  |  loss: 5.6
+------ nRMSE: 0.0260  |  PSNR: 31.97  |  SSIM: 0.8894
+iter: 700  |  time: 296.7  |  loss: 3.5
+------ nRMSE: 0.0253  |  PSNR: 32.22  |  SSIM: 0.9022
+iter: 800  |  time: 337.9  |  loss: 3.7
+------ nRMSE: 0.0225  |  PSNR: 33.23  |  SSIM: 0.8979
+iter: 900  |  time: 382.2  |  loss: 3.0
+------ nRMSE: 0.0225  |  PSNR: 33.23  |  SSIM: 0.9014
+iter: 1000  |  time: 428.8  |  loss: 1.6
+------ nRMSE: 0.0226  |  PSNR: 33.20  |  SSIM: 0.9152
+iter: 1100  |  time: 474.3  |  loss: 3.3
+------ nRMSE: 0.0219  |  PSNR: 33.47  |  SSIM: 0.9040
+iter: 1200  |  time: 520.0  |  loss: 2.0
+------ nRMSE: 0.0195  |  PSNR: 34.48  |  SSIM: 0.9210
+iter: 1300  |  time: 565.8  |  loss: 1.4
+------ nRMSE: 0.0202  |  PSNR: 34.13  |  SSIM: 0.9156
+iter: 1400  |  time: 611.5  |  loss: 1.1
+------ nRMSE: 0.0196  |  PSNR: 34.43  |  SSIM: 0.9283
+iter: 1500  |  time: 657.2  |  loss: 1.4
+------ nRMSE: 0.0201  |  PSNR: 34.21  |  SSIM: 0.9255
+iter: 1600  |  time: 703.0  |  loss: 1.4
+------ nRMSE: 0.0209  |  PSNR: 33.85  |  SSIM: 0.9168
+iter: 1700  |  time: 748.9  |  loss: 1.2
+------ nRMSE: 0.0180  |  PSNR: 35.17  |  SSIM: 0.9258
+iter: 1800  |  time: 794.6  |  loss: 1.2
+------ nRMSE: 0.0201  |  PSNR: 34.19  |  SSIM: 0.9226
+iter: 1900  |  time: 841.0  |  loss: 0.5
+------ nRMSE: 0.0192  |  PSNR: 34.57  |  SSIM: 0.9334
+iter: 2000  |  time: 886.8  |  loss: 1.1
+------ nRMSE: 0.0190  |  PSNR: 34.70  |  SSIM: 0.9298
+iter: 2100  |  time: 932.7  |  loss: 0.6
+------ nRMSE: 0.0189  |  PSNR: 34.72  |  SSIM: 0.9311
+iter: 2200  |  time: 977.2  |  loss: 0.7
+------ nRMSE: 0.0187  |  PSNR: 34.84  |  SSIM: 0.9316
+iter: 2300  |  time: 1019.0  |  loss: 0.6
+------ nRMSE: 0.0196  |  PSNR: 34.43  |  SSIM: 0.9309
+iter: 2400  |  time: 1060.7  |  loss: 0.4
+------ nRMSE: 0.0193  |  PSNR: 34.56  |  SSIM: 0.9320
+iter: 2500  |  time: 1102.2  |  loss: 0.5
+------ nRMSE: 0.0197  |  PSNR: 34.38  |  SSIM: 0.9316
+iter: 2600  |  time: 1143.8  |  loss: 0.5
+------ nRMSE: 0.0182  |  PSNR: 35.04  |  SSIM: 0.9317
+iter: 2700  |  time: 1185.5  |  loss: 1.0
+------ nRMSE: 0.0179  |  PSNR: 35.20  |  SSIM: 0.9237
+iter: 2800  |  time: 1227.1  |  loss: 0.5
+------ nRMSE: 0.0180  |  PSNR: 35.17  |  SSIM: 0.9332
+iter: 2900  |  time: 1268.8  |  loss: 0.5
+------ nRMSE: 0.0175  |  PSNR: 35.38  |  SSIM: 0.9349
+iter: 3000  |  time: 1310.6  |  loss: 0.8
+------ nRMSE: 0.0194  |  PSNR: 34.51  |  SSIM: 0.9327
+iter: 3100  |  time: 1352.5  |  loss: 0.3
+------ nRMSE: 0.0185  |  PSNR: 34.92  |  SSIM: 0.9376
+iter: 3200  |  time: 1394.3  |  loss: 0.7
+------ nRMSE: 0.0185  |  PSNR: 34.93  |  SSIM: 0.9308
+iter: 3300  |  time: 1436.2  |  loss: 0.7
+------ nRMSE: 0.0182  |  PSNR: 35.06  |  SSIM: 0.9312
+iter: 3400  |  time: 1478.1  |  loss: 0.9
+------ nRMSE: 0.0182  |  PSNR: 35.05  |  SSIM: 0.9358
+iter: 3500  |  time: 1519.8  |  loss: 0.6
+------ nRMSE: 0.0175  |  PSNR: 35.41  |  SSIM: 0.9323
+iter: 3600  |  time: 1561.6  |  loss: 0.5
+------ nRMSE: 0.0170  |  PSNR: 35.63  |  SSIM: 0.9391
+iter: 3700  |  time: 1603.5  |  loss: 0.4
+------ nRMSE: 0.0192  |  PSNR: 34.61  |  SSIM: 0.9377
+iter: 3800  |  time: 1645.3  |  loss: 0.8
+------ nRMSE: 0.0174  |  PSNR: 35.47  |  SSIM: 0.9392
+iter: 3900  |  time: 1687.0  |  loss: 0.5
+------ nRMSE: 0.0171  |  PSNR: 35.60  |  SSIM: 0.9394
+iter: 4000  |  time: 1728.3  |  loss: 0.5
+------ nRMSE: 0.0161  |  PSNR: 36.10  |  SSIM: 0.9364
+iter: 4100  |  time: 1769.7  |  loss: 0.2
+------ nRMSE: 0.0168  |  PSNR: 35.77  |  SSIM: 0.9412
+iter: 4200  |  time: 1811.2  |  loss: 2.1
+------ nRMSE: 0.0172  |  PSNR: 35.53  |  SSIM: 0.9363
+iter: 4300  |  time: 1852.6  |  loss: 0.3
+------ nRMSE: 0.0170  |  PSNR: 35.67  |  SSIM: 0.9400
+iter: 4400  |  time: 1894.0  |  loss: 0.7
+------ nRMSE: 0.0170  |  PSNR: 35.67  |  SSIM: 0.9404
+iter: 4500  |  time: 1935.4  |  loss: 0.3
+------ nRMSE: 0.0161  |  PSNR: 36.10  |  SSIM: 0.9423
+iter: 4600  |  time: 1976.9  |  loss: 0.4
+------ nRMSE: 0.0165  |  PSNR: 35.90  |  SSIM: 0.9422
+iter: 4700  |  time: 2018.3  |  loss: 0.3
+------ nRMSE: 0.0158  |  PSNR: 36.28  |  SSIM: 0.9426
+iter: 4800  |  time: 2059.7  |  loss: 0.4
+------ nRMSE: 0.0170  |  PSNR: 35.65  |  SSIM: 0.9431
+iter: 4900  |  time: 2101.1  |  loss: 0.2
+------ nRMSE: 0.0154  |  PSNR: 36.50  |  SSIM: 0.9451
+iter: 5000  |  time: 2142.4  |  loss: 0.3
+------ nRMSE: 0.0159  |  PSNR: 36.25  |  SSIM: 0.9439
