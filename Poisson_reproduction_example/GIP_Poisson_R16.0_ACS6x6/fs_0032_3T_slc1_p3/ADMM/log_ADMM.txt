@@ -1,0 +1,140 @@
+----------------------------------------------------------
+iter_ADMM: 1  |  CG_X  |  time: 0.1  |  nRMSE: 0.0090  |  PSNR: 41.20  |  SSIM: 0.9746
+iter_ADMM: 1  |  Gz_iter: 100  |  time: 43.9  |  nRMSE: 0.0094  |  PSNR: 40.80  |  SSIM: 0.9735
+iter_ADMM: 1  |  Gz_iter: 200  |  time: 87.4  |  nRMSE: 0.0094  |  PSNR: 40.84  |  SSIM: 0.9737
+iter_ADMM: 1  |  Gz_iter: 300  |  time: 130.8  |  nRMSE: 0.0093  |  PSNR: 40.87  |  SSIM: 0.9738
+iter_ADMM: 1  |  Gz_iter: 400  |  time: 174.5  |  nRMSE: 0.0093  |  PSNR: 40.88  |  SSIM: 0.9739
+iter_ADMM: 1  |  Gz_iter: 500  |  time: 217.5  |  nRMSE: 0.0093  |  PSNR: 40.93  |  SSIM: 0.9741
+----------------------------------------------------------
+iter_ADMM: 2  |  CG_X  |  time: 217.8  |  nRMSE: 0.0089  |  PSNR: 41.33  |  SSIM: 0.9753
+iter_ADMM: 2  |  Gz_iter: 100  |  time: 260.8  |  nRMSE: 0.0093  |  PSNR: 40.94  |  SSIM: 0.9743
+iter_ADMM: 2  |  Gz_iter: 200  |  time: 303.5  |  nRMSE: 0.0092  |  PSNR: 41.03  |  SSIM: 0.9746
+iter_ADMM: 2  |  Gz_iter: 300  |  time: 346.6  |  nRMSE: 0.0092  |  PSNR: 41.02  |  SSIM: 0.9746
+iter_ADMM: 2  |  Gz_iter: 400  |  time: 389.6  |  nRMSE: 0.0092  |  PSNR: 41.05  |  SSIM: 0.9747
+iter_ADMM: 2  |  Gz_iter: 500  |  time: 432.5  |  nRMSE: 0.0091  |  PSNR: 41.08  |  SSIM: 0.9747
+----------------------------------------------------------
+iter_ADMM: 3  |  CG_X  |  time: 432.9  |  nRMSE: 0.0087  |  PSNR: 41.52  |  SSIM: 0.9764
+iter_ADMM: 3  |  Gz_iter: 100  |  time: 475.5  |  nRMSE: 0.0090  |  PSNR: 41.17  |  SSIM: 0.9753
+iter_ADMM: 3  |  Gz_iter: 200  |  time: 518.1  |  nRMSE: 0.0090  |  PSNR: 41.22  |  SSIM: 0.9755
+iter_ADMM: 3  |  Gz_iter: 300  |  time: 560.8  |  nRMSE: 0.0089  |  PSNR: 41.25  |  SSIM: 0.9756
+iter_ADMM: 3  |  Gz_iter: 400  |  time: 603.4  |  nRMSE: 0.0089  |  PSNR: 41.26  |  SSIM: 0.9757
+iter_ADMM: 3  |  Gz_iter: 500  |  time: 646.1  |  nRMSE: 0.0089  |  PSNR: 41.28  |  SSIM: 0.9757
+----------------------------------------------------------
+iter_ADMM: 4  |  CG_X  |  time: 646.5  |  nRMSE: 0.0085  |  PSNR: 41.69  |  SSIM: 0.9773
+iter_ADMM: 4  |  Gz_iter: 100  |  time: 689.8  |  nRMSE: 0.0088  |  PSNR: 41.39  |  SSIM: 0.9763
+iter_ADMM: 4  |  Gz_iter: 200  |  time: 732.4  |  nRMSE: 0.0088  |  PSNR: 41.42  |  SSIM: 0.9764
+iter_ADMM: 4  |  Gz_iter: 300  |  time: 775.1  |  nRMSE: 0.0087  |  PSNR: 41.46  |  SSIM: 0.9765
+iter_ADMM: 4  |  Gz_iter: 400  |  time: 817.7  |  nRMSE: 0.0087  |  PSNR: 41.46  |  SSIM: 0.9765
+iter_ADMM: 4  |  Gz_iter: 500  |  time: 860.7  |  nRMSE: 0.0087  |  PSNR: 41.47  |  SSIM: 0.9765
+----------------------------------------------------------
+iter_ADMM: 5  |  CG_X  |  time: 861.1  |  nRMSE: 0.0083  |  PSNR: 41.86  |  SSIM: 0.9780
+iter_ADMM: 5  |  Gz_iter: 100  |  time: 904.2  |  nRMSE: 0.0086  |  PSNR: 41.61  |  SSIM: 0.9771
+iter_ADMM: 5  |  Gz_iter: 200  |  time: 947.4  |  nRMSE: 0.0086  |  PSNR: 41.63  |  SSIM: 0.9772
+iter_ADMM: 5  |  Gz_iter: 300  |  time: 990.6  |  nRMSE: 0.0085  |  PSNR: 41.66  |  SSIM: 0.9773
+iter_ADMM: 5  |  Gz_iter: 400  |  time: 1033.8  |  nRMSE: 0.0085  |  PSNR: 41.65  |  SSIM: 0.9772
+iter_ADMM: 5  |  Gz_iter: 500  |  time: 1076.9  |  nRMSE: 0.0085  |  PSNR: 41.69  |  SSIM: 0.9773
+----------------------------------------------------------
+iter_ADMM: 6  |  CG_X  |  time: 1077.3  |  nRMSE: 0.0082  |  PSNR: 42.04  |  SSIM: 0.9787
+iter_ADMM: 6  |  Gz_iter: 100  |  time: 1120.4  |  nRMSE: 0.0084  |  PSNR: 41.80  |  SSIM: 0.9778
+iter_ADMM: 6  |  Gz_iter: 200  |  time: 1163.0  |  nRMSE: 0.0084  |  PSNR: 41.83  |  SSIM: 0.9779
+iter_ADMM: 6  |  Gz_iter: 300  |  time: 1205.5  |  nRMSE: 0.0083  |  PSNR: 41.86  |  SSIM: 0.9780
+iter_ADMM: 6  |  Gz_iter: 400  |  time: 1248.0  |  nRMSE: 0.0083  |  PSNR: 41.86  |  SSIM: 0.9780
+iter_ADMM: 6  |  Gz_iter: 500  |  time: 1290.6  |  nRMSE: 0.0083  |  PSNR: 41.89  |  SSIM: 0.9780
+----------------------------------------------------------
+iter_ADMM: 7  |  CG_X  |  time: 1291.0  |  nRMSE: 0.0081  |  PSNR: 42.17  |  SSIM: 0.9792
+iter_ADMM: 7  |  Gz_iter: 100  |  time: 1333.6  |  nRMSE: 0.0082  |  PSNR: 41.97  |  SSIM: 0.9785
+iter_ADMM: 7  |  Gz_iter: 200  |  time: 1376.2  |  nRMSE: 0.0082  |  PSNR: 41.99  |  SSIM: 0.9784
+iter_ADMM: 7  |  Gz_iter: 300  |  time: 1418.7  |  nRMSE: 0.0082  |  PSNR: 42.02  |  SSIM: 0.9785
+iter_ADMM: 7  |  Gz_iter: 400  |  time: 1461.4  |  nRMSE: 0.0082  |  PSNR: 42.02  |  SSIM: 0.9785
+iter_ADMM: 7  |  Gz_iter: 500  |  time: 1504.6  |  nRMSE: 0.0082  |  PSNR: 42.03  |  SSIM: 0.9786
+----------------------------------------------------------
+iter_ADMM: 8  |  CG_X  |  time: 1505.0  |  nRMSE: 0.0079  |  PSNR: 42.31  |  SSIM: 0.9796
+iter_ADMM: 8  |  Gz_iter: 100  |  time: 1548.2  |  nRMSE: 0.0082  |  PSNR: 42.06  |  SSIM: 0.9790
+iter_ADMM: 8  |  Gz_iter: 200  |  time: 1591.4  |  nRMSE: 0.0081  |  PSNR: 42.11  |  SSIM: 0.9791
+iter_ADMM: 8  |  Gz_iter: 300  |  time: 1634.5  |  nRMSE: 0.0081  |  PSNR: 42.12  |  SSIM: 0.9791
+iter_ADMM: 8  |  Gz_iter: 400  |  time: 1677.7  |  nRMSE: 0.0081  |  PSNR: 42.15  |  SSIM: 0.9791
+iter_ADMM: 8  |  Gz_iter: 500  |  time: 1720.8  |  nRMSE: 0.0081  |  PSNR: 42.11  |  SSIM: 0.9791
+----------------------------------------------------------
+iter_ADMM: 9  |  CG_X  |  time: 1721.2  |  nRMSE: 0.0079  |  PSNR: 42.39  |  SSIM: 0.9799
+iter_ADMM: 9  |  Gz_iter: 100  |  time: 1764.2  |  nRMSE: 0.0080  |  PSNR: 42.25  |  SSIM: 0.9792
+iter_ADMM: 9  |  Gz_iter: 200  |  time: 1807.3  |  nRMSE: 0.0080  |  PSNR: 42.27  |  SSIM: 0.9793
+iter_ADMM: 9  |  Gz_iter: 300  |  time: 1850.3  |  nRMSE: 0.0080  |  PSNR: 42.25  |  SSIM: 0.9793
+iter_ADMM: 9  |  Gz_iter: 400  |  time: 1893.5  |  nRMSE: 0.0080  |  PSNR: 42.24  |  SSIM: 0.9793
+iter_ADMM: 9  |  Gz_iter: 500  |  time: 1936.6  |  nRMSE: 0.0080  |  PSNR: 42.26  |  SSIM: 0.9793
+----------------------------------------------------------
+iter_ADMM: 10  |  CG_X  |  time: 1937.0  |  nRMSE: 0.0078  |  PSNR: 42.46  |  SSIM: 0.9800
+iter_ADMM: 10  |  Gz_iter: 100  |  time: 1980.2  |  nRMSE: 0.0079  |  PSNR: 42.36  |  SSIM: 0.9795
+iter_ADMM: 10  |  Gz_iter: 200  |  time: 2023.2  |  nRMSE: 0.0079  |  PSNR: 42.36  |  SSIM: 0.9796
+iter_ADMM: 10  |  Gz_iter: 300  |  time: 2066.2  |  nRMSE: 0.0079  |  PSNR: 42.36  |  SSIM: 0.9796
+iter_ADMM: 10  |  Gz_iter: 400  |  time: 2109.3  |  nRMSE: 0.0079  |  PSNR: 42.37  |  SSIM: 0.9795
+iter_ADMM: 10  |  Gz_iter: 500  |  time: 2152.4  |  nRMSE: 0.0079  |  PSNR: 42.38  |  SSIM: 0.9794
+----------------------------------------------------------
+iter_ADMM: 11  |  CG_X  |  time: 2152.8  |  nRMSE: 0.0078  |  PSNR: 42.50  |  SSIM: 0.9801
+iter_ADMM: 11  |  Gz_iter: 100  |  time: 2195.8  |  nRMSE: 0.0078  |  PSNR: 42.43  |  SSIM: 0.9796
+iter_ADMM: 11  |  Gz_iter: 200  |  time: 2238.8  |  nRMSE: 0.0078  |  PSNR: 42.42  |  SSIM: 0.9797
+iter_ADMM: 11  |  Gz_iter: 300  |  time: 2282.6  |  nRMSE: 0.0078  |  PSNR: 42.42  |  SSIM: 0.9797
+iter_ADMM: 11  |  Gz_iter: 400  |  time: 2326.3  |  nRMSE: 0.0078  |  PSNR: 42.44  |  SSIM: 0.9795
+iter_ADMM: 11  |  Gz_iter: 500  |  time: 2369.9  |  nRMSE: 0.0078  |  PSNR: 42.44  |  SSIM: 0.9795
+----------------------------------------------------------
+iter_ADMM: 12  |  CG_X  |  time: 2370.3  |  nRMSE: 0.0077  |  PSNR: 42.55  |  SSIM: 0.9801
+iter_ADMM: 12  |  Gz_iter: 100  |  time: 2414.1  |  nRMSE: 0.0078  |  PSNR: 42.48  |  SSIM: 0.9797
+iter_ADMM: 12  |  Gz_iter: 200  |  time: 2458.1  |  nRMSE: 0.0078  |  PSNR: 42.44  |  SSIM: 0.9797
+iter_ADMM: 12  |  Gz_iter: 300  |  time: 2501.8  |  nRMSE: 0.0078  |  PSNR: 42.47  |  SSIM: 0.9797
+iter_ADMM: 12  |  Gz_iter: 400  |  time: 2545.3  |  nRMSE: 0.0078  |  PSNR: 42.46  |  SSIM: 0.9796
+iter_ADMM: 12  |  Gz_iter: 500  |  time: 2588.6  |  nRMSE: 0.0078  |  PSNR: 42.44  |  SSIM: 0.9796
+----------------------------------------------------------
+iter_ADMM: 13  |  CG_X  |  time: 2589.0  |  nRMSE: 0.0077  |  PSNR: 42.58  |  SSIM: 0.9801
+iter_ADMM: 13  |  Gz_iter: 100  |  time: 2632.3  |  nRMSE: 0.0078  |  PSNR: 42.49  |  SSIM: 0.9798
+iter_ADMM: 13  |  Gz_iter: 200  |  time: 2676.0  |  nRMSE: 0.0078  |  PSNR: 42.45  |  SSIM: 0.9798
+iter_ADMM: 13  |  Gz_iter: 300  |  time: 2719.5  |  nRMSE: 0.0078  |  PSNR: 42.46  |  SSIM: 0.9799
+iter_ADMM: 13  |  Gz_iter: 400  |  time: 2763.2  |  nRMSE: 0.0077  |  PSNR: 42.51  |  SSIM: 0.9797
+iter_ADMM: 13  |  Gz_iter: 500  |  time: 2806.7  |  nRMSE: 0.0078  |  PSNR: 42.48  |  SSIM: 0.9797
+----------------------------------------------------------
+iter_ADMM: 14  |  CG_X  |  time: 2807.1  |  nRMSE: 0.0077  |  PSNR: 42.60  |  SSIM: 0.9801
+iter_ADMM: 14  |  Gz_iter: 100  |  time: 2850.7  |  nRMSE: 0.0077  |  PSNR: 42.51  |  SSIM: 0.9798
+iter_ADMM: 14  |  Gz_iter: 200  |  time: 2894.0  |  nRMSE: 0.0077  |  PSNR: 42.54  |  SSIM: 0.9798
+iter_ADMM: 14  |  Gz_iter: 300  |  time: 2937.5  |  nRMSE: 0.0077  |  PSNR: 42.56  |  SSIM: 0.9798
+iter_ADMM: 14  |  Gz_iter: 400  |  time: 2980.4  |  nRMSE: 0.0077  |  PSNR: 42.54  |  SSIM: 0.9797
+iter_ADMM: 14  |  Gz_iter: 500  |  time: 3023.3  |  nRMSE: 0.0077  |  PSNR: 42.55  |  SSIM: 0.9796
+----------------------------------------------------------
+iter_ADMM: 15  |  CG_X  |  time: 3023.7  |  nRMSE: 0.0076  |  PSNR: 42.62  |  SSIM: 0.9801
+iter_ADMM: 15  |  Gz_iter: 100  |  time: 3066.8  |  nRMSE: 0.0078  |  PSNR: 42.49  |  SSIM: 0.9799
+iter_ADMM: 15  |  Gz_iter: 200  |  time: 3110.2  |  nRMSE: 0.0077  |  PSNR: 42.58  |  SSIM: 0.9798
+iter_ADMM: 15  |  Gz_iter: 300  |  time: 3153.5  |  nRMSE: 0.0077  |  PSNR: 42.51  |  SSIM: 0.9799
+iter_ADMM: 15  |  Gz_iter: 400  |  time: 3196.8  |  nRMSE: 0.0077  |  PSNR: 42.56  |  SSIM: 0.9796
+iter_ADMM: 15  |  Gz_iter: 500  |  time: 3240.0  |  nRMSE: 0.0077  |  PSNR: 42.56  |  SSIM: 0.9796
+----------------------------------------------------------
+iter_ADMM: 16  |  CG_X  |  time: 3240.4  |  nRMSE: 0.0076  |  PSNR: 42.65  |  SSIM: 0.9801
+iter_ADMM: 16  |  Gz_iter: 100  |  time: 3283.8  |  nRMSE: 0.0077  |  PSNR: 42.57  |  SSIM: 0.9799
+iter_ADMM: 16  |  Gz_iter: 200  |  time: 3327.1  |  nRMSE: 0.0077  |  PSNR: 42.59  |  SSIM: 0.9798
+iter_ADMM: 16  |  Gz_iter: 300  |  time: 3370.6  |  nRMSE: 0.0077  |  PSNR: 42.53  |  SSIM: 0.9799
+iter_ADMM: 16  |  Gz_iter: 400  |  time: 3413.8  |  nRMSE: 0.0077  |  PSNR: 42.51  |  SSIM: 0.9799
+iter_ADMM: 16  |  Gz_iter: 500  |  time: 3457.0  |  nRMSE: 0.0077  |  PSNR: 42.57  |  SSIM: 0.9795
+----------------------------------------------------------
+iter_ADMM: 17  |  CG_X  |  time: 3457.3  |  nRMSE: 0.0076  |  PSNR: 42.64  |  SSIM: 0.9801
+iter_ADMM: 17  |  Gz_iter: 100  |  time: 3500.6  |  nRMSE: 0.0077  |  PSNR: 42.61  |  SSIM: 0.9798
+iter_ADMM: 17  |  Gz_iter: 200  |  time: 3543.9  |  nRMSE: 0.0076  |  PSNR: 42.62  |  SSIM: 0.9798
+iter_ADMM: 17  |  Gz_iter: 300  |  time: 3587.3  |  nRMSE: 0.0077  |  PSNR: 42.53  |  SSIM: 0.9799
+iter_ADMM: 17  |  Gz_iter: 400  |  time: 3630.6  |  nRMSE: 0.0077  |  PSNR: 42.59  |  SSIM: 0.9796
+iter_ADMM: 17  |  Gz_iter: 500  |  time: 3674.0  |  nRMSE: 0.0077  |  PSNR: 42.57  |  SSIM: 0.9794
+----------------------------------------------------------
+iter_ADMM: 18  |  CG_X  |  time: 3674.4  |  nRMSE: 0.0076  |  PSNR: 42.67  |  SSIM: 0.9802
+iter_ADMM: 18  |  Gz_iter: 100  |  time: 3717.7  |  nRMSE: 0.0077  |  PSNR: 42.61  |  SSIM: 0.9798
+iter_ADMM: 18  |  Gz_iter: 200  |  time: 3761.1  |  nRMSE: 0.0078  |  PSNR: 42.46  |  SSIM: 0.9800
+iter_ADMM: 18  |  Gz_iter: 300  |  time: 3804.5  |  nRMSE: 0.0077  |  PSNR: 42.54  |  SSIM: 0.9799
+iter_ADMM: 18  |  Gz_iter: 400  |  time: 3847.9  |  nRMSE: 0.0076  |  PSNR: 42.62  |  SSIM: 0.9797
+iter_ADMM: 18  |  Gz_iter: 500  |  time: 3891.3  |  nRMSE: 0.0077  |  PSNR: 42.59  |  SSIM: 0.9796
+----------------------------------------------------------
+iter_ADMM: 19  |  CG_X  |  time: 3891.7  |  nRMSE: 0.0076  |  PSNR: 42.68  |  SSIM: 0.9803
+iter_ADMM: 19  |  Gz_iter: 100  |  time: 3935.2  |  nRMSE: 0.0078  |  PSNR: 42.46  |  SSIM: 0.9800
+iter_ADMM: 19  |  Gz_iter: 200  |  time: 3978.6  |  nRMSE: 0.0077  |  PSNR: 42.58  |  SSIM: 0.9800
+iter_ADMM: 19  |  Gz_iter: 300  |  time: 4022.0  |  nRMSE: 0.0078  |  PSNR: 42.49  |  SSIM: 0.9800
+iter_ADMM: 19  |  Gz_iter: 400  |  time: 4065.2  |  nRMSE: 0.0077  |  PSNR: 42.54  |  SSIM: 0.9800
+iter_ADMM: 19  |  Gz_iter: 500  |  time: 4108.4  |  nRMSE: 0.0077  |  PSNR: 42.52  |  SSIM: 0.9798
+----------------------------------------------------------
+iter_ADMM: 20  |  CG_X  |  time: 4108.8  |  nRMSE: 0.0076  |  PSNR: 42.70  |  SSIM: 0.9804
+iter_ADMM: 20  |  Gz_iter: 100  |  time: 4152.1  |  nRMSE: 0.0076  |  PSNR: 42.64  |  SSIM: 0.9800
+iter_ADMM: 20  |  Gz_iter: 200  |  time: 4195.2  |  nRMSE: 0.0077  |  PSNR: 42.56  |  SSIM: 0.9801
+iter_ADMM: 20  |  Gz_iter: 300  |  time: 4238.4  |  nRMSE: 0.0077  |  PSNR: 42.51  |  SSIM: 0.9802
+iter_ADMM: 20  |  Gz_iter: 400  |  time: 4281.5  |  nRMSE: 0.0077  |  PSNR: 42.58  |  SSIM: 0.9800
+iter_ADMM: 20  |  Gz_iter: 500  |  time: 4324.7  |  nRMSE: 0.0077  |  PSNR: 42.51  |  SSIM: 0.9800
