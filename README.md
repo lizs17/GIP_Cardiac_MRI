@@ -21,13 +21,27 @@ The following environmental configurations can reproduce the results in the arti
 The supporting file `environment.txt` is provided for a quick configuration for the necessary packages.
 
 # Contents
-* "data/": the dynamic cine MRI data directory. Each data contains a fully-sampled image 'img' and the corresponding estimated sensitivity maps 'smap'
-* "mask/": the undersampling pattern directory, containing the undersampling mask (for Cartesian-sampled k-space patterns) or trajectory and the corresponding density compensation funtion (for non-Cartesian-sampled k-space patterns)
-* utils.py: the helper functions and classes
-* model.py: the Graph-Image_Prior (GIP) generator architecture
-* GIP_xxx____pretrain.py: the code for pretraining the generator, using xxx trajectory sampling
-* GIP_xxx____ADMM.py: the code of the ADMM algorithm for alternately optimizing the generator and the dynamic images, using xxx trajectory sampling
-* GIP_xxx____main.py: a one-click script for running the code to reproduce the results, using xxx trajectory sampling
+
+This repository contains the source code and data for GIP: (xxx indicates the code for xxx sampling trajectory)
+
+```bash
+├── data/
+│   ├── [dataName].h5
+├── mask/
+│   ├── [maskName].h5
+├── utils.py
+├── model.py
+├── GIP_xxx____pretrain.py
+├── GIP_xxx____ADMM.py
+├── GIP_xxx____main.py
+```
+* `data/`: the dynamic cine MRI data directory. Each data is saved in .h5 format, which contains a fully-sampled image 'img' and the corresponding estimated sensitivity maps 'smap'.
+* `mask/`: the k-space sampling directory, containing the undersampling mask (for Cartesian-sampled k-space patterns) or trajectory (for non-Cartesian-sampled k-space patterns).
+* `utils.py`: the helper functions and classes
+* `model.py`: the Graph-Image_Prior (GIP) generator architecture
+* `GIP_xxx____pretrain.py`: the code for pretraining the generator
+* `GIP_xxx____ADMM.py`: the code of the ADMM algorithm for alternately optimizing the generator and the dynamic images
+* `GIP_xxx____main.py`: a one-click script for running the code
 
 # Updated Information for Pretraining
 
