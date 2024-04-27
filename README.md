@@ -37,7 +37,7 @@ The GIP generator has two parts: the independent CNNs (G1, ..., GN) and the GCN 
 
 We adopted a 3-stage pretraining strategy for the GIP generator.
 
-* First-stage: we add an additional convolution layer at the end of "G", which directly transforms the feature frames to image frames (by reducing the channel numbers to 2). Therefore, the "G" part of the generator with the additional convolution layer can be trained by fitting the undersampled k-space data. The aim of this step is to find a good initialization for "G".
+* First-stage: we add an additional convolution layer at the end of "G", which directly transforms the feature frames to image frames (by reducing the channel numbers to 2). This additional convolution layer is only used for this pretraining stage. The "G" part of the generator with the additional convolution layer are trained by fitting the undersampled k-space data. The aim of this step is to find a good initialization for "G".
 * Second-stage: the weights of "G" is kept fixed. The fixed "G" is used jointly with "C" to output the reconstructed images, and then fitting the undersampled k-space data. Because the weights of "G" is fixed, the purpose of this step is to find a good initialization for "C".
 * Third-stage: "G" and "C" are used in combination, and the weights of both parts are learnable. Still, fine-tuning is performed by fitting the undersampled k-space data. A detail of this stage is that the graph structure is learnable at the beginning of this stage, but will be fixed after a given iteration number. This graph-structure is also utilized for the following ADMM algorithm.
 
