@@ -29,8 +29,14 @@ The supporting file "environment.txt" is provided for a quick configuration for 
 * GIP_xxx____ADMM.py: the code of the ADMM algorithm for alternately optimizing the generator G_{\theta} and the dynamic images, using xxx trajectory sampling
 * GIP_xxx____main.py: a one-click script for running the code to reproduce the results, using xxx trajectory sampling
 
-# Updated Information
-* Pretraining is critical for producing good reconstruction performance,
+# Updated Information for Pretraining
+
+* Pretraining is critical for producing good reconstruction performance. However, this part has been omitted in the article due to page limit. A brief explanation about the pretraining process is given here.
+* The pretraining also only utilizes the undersampled k-space data.
+* The GIP generator has two parts: the independent CNNs (G1, ..., GN) and the GCN network. In this implementation, (G1, ..., GN) are abbreviated as "G", and the GCN is abbreviated as "C".
+
+We adopted a 3-stage pretraining strategy for the GIP generator.
+
 
 # A Simple Reconstruction Example for Poisson Sampling
 Just run the following command to train a GIP model and perform reconstruction from the very beginning (from randomly-initialized model weight).
