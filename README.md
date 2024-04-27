@@ -23,7 +23,7 @@ The supporting file "environment.txt" is provided for a quick configuration for 
 # Contents
 * "data/": the dynamic cine MRI data directory. Each data contains a fully-sampled image 'img' and the corresponding estimated sensitivity maps 'smap'
 * "mask/": the undersampling pattern directory, containing the undersampling mask (for Cartesian-sampled k-space patterns) or trajectory and the corresponding density compensation funtion (for non-Cartesian-sampled k-space patterns)
-* utis.py: the helper functions and classes
+* utils.py: the helper functions and classes
 * model.py: the Graph-Image_Prior (GIP) generator architecture
 * GIP_xxx____pretrain.py: the code for pretraining the generator G_{\theta}, using xxx trajectory sampling
 * GIP_xxx____ADMM.py: the code of the ADMM algorithm for alternately optimizing the generator G_{\theta} and the dynamic images, using xxx trajectory sampling
@@ -32,11 +32,15 @@ The supporting file "environment.txt" is provided for a quick configuration for 
 # Updated Information for Pretraining
 
 * Pretraining is critical for producing good reconstruction performance. However, this part has been omitted in the article due to page limit. A brief explanation about the pretraining process is given here.
-* The pretraining also only utilizes the undersampled k-space data.
 * The GIP generator has two parts: the independent CNNs (G1, ..., GN) and the GCN network. In this implementation, (G1, ..., GN) are abbreviated as "G", and the GCN is abbreviated as "C".
 
 We adopted a 3-stage pretraining strategy for the GIP generator.
 
+* First-stage: we add an additional convolution layer at the end of "G", which directly transforms the feature frames to image frames (by reducing the channel numbers to 2). Therefore, the "G" part of the generator with the additional convolution layer can be trained by fitting the undersampled k-space data. The aim of this step is to find a good initialization for "G".
+* Second-stage: the weights of "G" is kept fixed. The fixed "G" is used jointly with "C" to output the reconstructed images, and then fitting the undersampled k-space data. Because the weights of "G" is fixed, the purpose of this step is to find a good initialization for "C".
+* Third-stage: "G" and "C" are used in combination, and the weights of both parts are learnable. Still, fine-tuning is performed by fitting the undersampled k-space data. A detail of this stage is that the graph structure is learnable at the beginning of this stage, but will be fixed after a given iteration number. This graph-structure is also utilized for the following ADMM algorithm.
+
+* IMPORTANT!!! The whole pretraining process also only utilizes the undersampled k-space data.
 
 # A Simple Reconstruction Example for Poisson Sampling
 Just run the following command to train a GIP model and perform reconstruction from the very beginning (from randomly-initialized model weight).
