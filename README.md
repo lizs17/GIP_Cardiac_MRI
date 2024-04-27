@@ -38,7 +38,7 @@ This repository contains the source code and data for GIP: (xxx indicates the co
 * `data/`: the dynamic cine MRI data directory. Each data is saved in .h5 format, which contains a fully-sampled image 'img' and the corresponding estimated sensitivity maps 'smap'.
 * `mask/`: the k-space sampling directory, containing the undersampling mask (for Cartesian-sampled k-space patterns) or trajectory (for non-Cartesian-sampled k-space patterns).
 * `utils.py`: the helper functions and classes
-* `model.py`: the Graph-Image_Prior (GIP) generator architecture
+* `model.py`: the Graph-Image-Prior (GIP) generator architecture
 * `GIP_xxx____pretrain.py`: the code for pretraining the generator
 * `GIP_xxx____ADMM.py`: the code of the ADMM algorithm for alternately optimizing the generator and the dynamic images
 * `GIP_xxx____main.py`: a one-click script for running the code
