@@ -62,4 +62,5 @@ When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0
 ```
 * The "GIP_Poisson_R16.0_ACS6x6/" directory contains the intermediate and final results of the GIP reconstruction procedure.
 * The "output_Poisson/" directory contains the plotted figures of the reconstructed images.
-* IMPORTANT!!! Because the "nn.Upsample" module has unavoidable randomness (even if all the random seeds have been controlled, and the torch backends has been kept as deterministic, see https://discuss.pytorch.org/t/non-deterministic-behavior-of-pytorch-upsample-interpolate/42842/6), the 
+* IMPORTANT!!! Because the "nn.Upsample" module has unavoidable randomness (even if all the random seeds have been controlled, and the torch backends has been kept as deterministic, see https://discuss.pytorch.org/t/non-deterministic-behavior-of-pytorch-upsample-interpolate/42842/6), the reproduction results may be slightly different. However, we have conducted repeated experiments to ensure that this implementation could lead to relatively stable results. The output images in the "output_Poisson/" directory should be similar to the following results:
+* 
