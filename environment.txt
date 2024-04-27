@@ -1,0 +1,7 @@
+conda create -n gip_env python=3.8
+conda activate gip_env
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+pip install h5py
+pip install scikit-image
+pip install matplotlib
+pip install torchkbnufft
