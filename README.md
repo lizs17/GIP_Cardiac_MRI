@@ -91,7 +91,7 @@ When the code-runing is finished, two additional directories (`GIP_Poisson_R16.0
 
 ![Image text](illustration/recon_images.png)
 
-An example of the reproduction can be downloaded [here](https://drive.google.com/drive/folders/1auUZusxgkh0ERYF9O0yTh3aR4Wa8rSp1?usp=sharing).
+An example of the reproduction results can be downloaded [here](https://drive.google.com/drive/folders/1auUZusxgkh0ERYF9O0yTh3aR4Wa8rSp1?usp=sharing).
 
 # References
 * This work is now an Arxiv preprint at https://arxiv.org/abs/2403.15770.
