@@ -30,10 +30,29 @@ The supporting file "environment.txt" is provided for a quick configuration for 
 # Updated Information
 * Pretraining is critical for producing good reconstruction performance,
 
-# A simple reconstruction example for Poisson sampling
+# A Simple Reconstruction Example for Poisson Sampling
 Just run the following command to train a GIP model and perform reconstruction from the very beginning (from randomly-initialized model weight).
 ```bash
 python GIP_Poisson____main.py
 ```
-[Reproduction on a 4090 GPU] The pretraining takes 2~3 hours and the ADMM algorithm takes ~1 hour.
-[After ]
+* The pretraining takes 2~3 hours and the ADMM algorithm takes ~1 hour (on a RTX 4090 GPU).
+* When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0_ACS6x6/" and "output_Poisson/") should be created:
+```bash
+├── GIP_Poisson_R16.0_ACS6x6/
+│   ├── fs_0032_3T_slc1_p3/
+│   │   ├── ADMM/
+│   │   ├── C/
+│   │   ├── G/
+│   │   ├── tune/
+│   │   ├── z.h5
+├── output_Poisson/
+│   ├── imgGT.png
+│   ├── imgRC1.png
+│   ├── imgRC10.png
+│   ├── imgRC20.png
+│   ├── imgZF.png
+│   ├── masks.png
+│   ├── smaps.png
+```
+* The "GIP_Poisson_R16.0_ACS6x6/" directory contains the intermediate and final results of the GIP reconstruction procedure. And the "output_Poisson/" directory contains the plotted figures of the reconstructed images.
+* 
