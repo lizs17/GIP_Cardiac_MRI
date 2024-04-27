@@ -50,7 +50,7 @@ python GIP_Poisson____main.py
 
 The pretraining takes 2~3 hours and the ADMM algorithm takes ~1 hour (accordig to the reproduction on a RTX 4090 GPU).
 
-When the code-runing is finished, two additional directories ("GIP_Poisson_R16.0_ACS6x6/" and "output_Poisson/") should be created:
+When the code-runing is finished, two additional directories (`GIP_Poisson_R16.0_ACS6x6/` and `output_Poisson/`) should be created:
 
 ```bash
 ├── GIP_Poisson_R16.0_ACS6x6/
